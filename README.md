@@ -9,4 +9,5 @@ I'm quite sure there are more sophisticated ways to do this, but this was just f
 
 ## To execute
 
-Point your terminal to the directory where the script exists and run `./showhidden.sh`.
+Point your terminal to the directory where the script exists and run `./showhidden.sh`
+
