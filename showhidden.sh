@@ -1,17 +1,14 @@
 #!/bin/bash
 
-
 status=$(defaults read com.apple.finder AppleShowAllFiles)
 
-echo "The current status is $status"
-
 if [ "$status" = "FALSE" ]; then
-        echo "Showing hidden files"
+        echo "Was hiding, now showing"
         defaults write com.apple.finder AppleShowAllFiles TRUE
     else
-        echo "Hiding hidden files"
+        echo "Was showing, now hiding"
         defaults write com.apple.finder AppleShowAllFiles FALSE
 fi
 
-killall Finder;
+killall Finder
 exit
