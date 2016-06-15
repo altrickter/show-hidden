@@ -1,11 +1,10 @@
 #show-hidden
-===========
 
 ## Summary
 
-Short script to automatically show/hide hidden folders and files on your Mac. It determines whether or not you have files and folders hidden (your "status") and then changes it to the opposite. So if files are hidden, then become shown and if they are shown, they become hidden.
+Short script to automatically show/hide hidden folders and files in Finder on your Mac. It determines whether or not you have files and folders hidden and then changes it to the opposite. So if files are hidden, they become shown and if they are shown, they become hidden.
 
-## To execute on Mac OSX
+## To execute on Mac
 
 The simplest (but least convenient) solution is to just point your terminal to the directory where the script exists and run:
 
